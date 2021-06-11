@@ -1,0 +1,35 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "express app starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx kill-port 3333 && export NODE_ENV=development && nodemon",
+    "build": "rimraf ./dist && webpack"
+  },
+  "author": "@thevarunraja",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.11",
+    "@types/node": "^12.20.13",
+    "dotenv-webpack": "^7.0.2",
+    "esbuild-register": "^2.5.0",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2",
+    "terser-webpack-plugin": "^5.1.2",
+    "ts-loader": "^9.1.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.9",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
