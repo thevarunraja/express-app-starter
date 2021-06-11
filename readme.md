@@ -1,6 +1,6 @@
 # Express application starter.
 
-Very basic starter project to get up and running with express. You can add any additional config to your liking.
+Very basic starter project to get up and running with express(helpful in building api's). You can add any additional config to your liking.
 
 ## Quick Overview
 
