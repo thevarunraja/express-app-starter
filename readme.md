@@ -14,5 +14,5 @@ open http://localhost:3333
 
 ## Features.
 
-- Typescript
+- TypeScript
 - Deploy to lambda(Serverless ready)
